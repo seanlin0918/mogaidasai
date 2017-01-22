@@ -13,8 +13,15 @@
  *= require_tree .
  *= require_self
  *= require font-awesome
+ *= require bootstrap
  */
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+ .navbar-default {
+     background-color: #B0BEC5;//背景颜色
+     border-color: #B0BEC5;//边框色
+     margin-bottom: 0;//底部 margin 不撑开距离
+ }
